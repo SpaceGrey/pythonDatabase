@@ -102,7 +102,7 @@ run函数模块是整个系统的入口，本模块的主要功能是初始化�
 
 ## 2.3 模块调用图
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/75ce3ad05a8e626aaa288ac97a08b69b.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/75ce3ad05a8e626aaa288ac97a08b69b.writebug)
 
 # 3.详细设计说明
 
@@ -131,9 +131,9 @@ import Queue
 
 数据库示例：
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/64b732a811ea7841b5cbf99977a9f3df.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/64b732a811ea7841b5cbf99977a9f3df.writebug)
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/d6361cda807da8f600f7a4bef56d2e9e.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/d6361cda807da8f600f7a4bef56d2e9e.writebug)
 
 ## 3.3 run函数的功能
 
@@ -183,7 +183,7 @@ creat_table('permission', db, 'system',permission_tb_col)
 
 **目录结构**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/091e9a260756ea6512c5b5b3456624c3.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/091e9a260756ea6512c5b5b3456624c3.writebug)
 
 ## 3.4 用户验证及登录模块
 
@@ -227,7 +227,7 @@ def check_login(username,password):
 
 **登陆效果**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/bbbbf6bfdc6e3fd5a3446a594ccd4291.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/bbbbf6bfdc6e3fd5a3446a594ccd4291.writebug)
 
 ## 3.5 创建表模块
 
@@ -286,7 +286,7 @@ print (u"数据表创建完成。")
 
 **table_information表（测试数据）**
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/8d42cfe25b75f43f20e5543032f8c932.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/8d42cfe25b75f43f20e5543032f8c932.writebug)
 
 ## 3.6 创建视图模块
 
@@ -298,7 +298,7 @@ creat view view_name as select xx from xx
 
 解析查询语句，将结果存在view库中，每一个视图已视图名作为表名写入view库中，在view库中设置一个sql表原来存储视图和对应的sql语句。
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/e1de121c0d7655981b31576cf432d7ce.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/e1de121c0d7655981b31576cf432d7ce.writebug)
 
 ```python
 def view(viewname,sql):
@@ -656,7 +656,7 @@ def check_permission(user,database,action):
 grant select on test_tb for testuser
 ```
 
-![](http://www.write-bug.com/myres/static/uploads/2021/10/19/38a7d9a43a91428b576aee5f32523175.writebug)
+![](http://www.writebug.com/myres/static/uploads/2021/10/19/38a7d9a43a91428b576aee5f32523175.writebug)
 
 这里第一列是具有权限的对象，不只是数据库，可以是table,view,index，在函数对应函数处理时将数据库名变量换成其他对象就OK。
 
